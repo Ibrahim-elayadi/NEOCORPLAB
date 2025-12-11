@@ -375,5 +375,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener('load', () => {
             setTimeout(() => {
                 document.getElementById('loadingScreen').classList.add('hidden');
-            }, 3000);
+            }, 4000);
         });
+
