@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche - Performance & Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Translate API -->
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+    <!-- Google Translate Widget -->
+    <div id="google_translate_element" style="display:none;"></div>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="menu-label">MENU</div>
+        </div>
+        <div class="logo">NEO-CORP LAB</div>
+        <ul class="nav-menu"></ul>
+        <div class="nav-right">
+            <div class="language-selector">
+                <button id="langToggle" class="region-btn">EN 🌐</button>
+                <div class="language-dropdown">
+                    <a href="#" class="lang-option active" data-lang="en">English</a>
+                    <a href="#" class="lang-option" data-lang="fr">Français</a>
+                    <a href="#" class="lang-option" data-lang="de">Deutsch</a>
+                    <a href="#" class="lang-option" data-lang="es">Español</a>
+                    <a href="#" class="lang-option" data-lang="it">Italiano</a>
+                    <a href="#" class="lang-option" data-lang="ar">العربية</a>
+                    <a href="#" class="lang-option" data-lang="zh">中文</a>
+                    <a href="#" class="lang-option" data-lang="ja">日本語</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Menu Panel -->
+    <div class="side-menu-overlay"></div>
+    <aside class="side-menu">
+        <div class="side-menu-content">
+            <h3 data-i18n="nav_models">Models</h3>
+            <ul>
+                <li><a href="#911">911</a></li>
+                <li><a href="#718" data-i18n="nav_718">718 Cayman & Boxster</a></li>
+                <li><a href="#taycan" data-i18n="nav_taycan">Taycan</a></li>
+                <li><a href="#panamera" data-i18n="nav_panamera">Panamera</a></li>
+                <li><a href="#macan" data-i18n="nav_macan">Macan</a></li>
+                <li><a href="#cayenne" data-i18n="nav_cayenne">Cayenne</a></li>
+            </ul>
+            <h3 data-i18n="nav_about">About</h3>
+            <ul>
+                <li><a href="#heritage" data-i18n="nav_heritage">Heritage</a></li>
+                <li><a href="#technology" data-i18n="nav_technology">Technology</a></li>
+                <li><a href="#sustainability" data-i18n="nav_sustainability">Sustainability</a></li>
+                <li><a href="#careers" data-i18n="nav_careers">Careers</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- Close Button Container -->
+    <div class="close-btn-container">
+        <button class="menu-close-btn" title="Close menu">✕</button>
+    </div>
+
+    <div class="main-content">
+    <section class="hero">
+        <h1 data-i18n="hero_title">Performance Redefined</h1>
+        <p data-i18n="hero_subtitle">Experience the pinnacle of automotive engineering and luxury</p>
+        <button class="cta-button" data-i18n="hero_button">EXPLORE MODELS</button>
+    </section>
+
+    <!-- Models Section -->
+    <section class="models-section">
+        <h2 data-i18n="models_title">Our Iconic Models</h2>
+        <div class="models-grid">
+            <div class="model-card">
+                <h3>911</h3>
+                <p data-i18n="model_911">Iconic sports car with rear engine and two doors</p>
+                <a href="#911" data-i18n="model_learnmore">Learn More →</a>
+            </div>
+            <div class="model-card">
+                <h3>718</h3>
+                <p data-i18n="model_718">Agile mid-engine sports car</p>
+                <a href="#718" data-i18n="model_learnmore">Learn More →</a>
+            </div>
+            <div class="model-card">
+                <h3>Taycan</h3>
+                <p data-i18n="model_taycan">Electric sports sedan with cutting-edge technology</p>
+                <a href="#taycan" data-i18n="model_learnmore">Learn More →</a>
+            </div>
+            <div class="model-card">
+                <h3>Panamera</h3>
+                <p data-i18n="model_panamera">Luxury sports sedan with grand touring capabilities</p>
+                <a href="#panamera" data-i18n="model_learnmore">Learn More →</a>
+            </div>
+            <div class="model-card">
+                <h3>Macan</h3>
+                <p data-i18n="model_macan">Compact performance SUV</p>
+                <a href="#macan" data-i18n="model_learnmore">Learn More →</a>
+            </div>
+            <div class="model-card">
+                <h3>Cayenne</h3>
+                <p data-i18n="model_cayenne">Versatile performance SUV</p>
+                <a href="#cayenne" data-i18n="model_learnmore">Learn More →</a>
+            </div>
+        </div>
+    </section>
+        <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <!-- YOUR LOGO HERE - Replace the src with your logo image URL -->
+        <img src="logo.png" alt="Logo" class="ferrari-logo" >
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
